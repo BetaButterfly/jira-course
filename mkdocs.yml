@@ -5,6 +5,7 @@ site_url: https://BetaButterfly.github.io/jira-course/
 
 theme:
   name: material
+  custom_dir: overrides
   language: uk
   palette:
     - scheme: default
