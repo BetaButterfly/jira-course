@@ -1,0 +1,51 @@
+site_name: Курс Jira для новачків
+site_description: Інтерактивний гайд від нуля до впевненого PM
+site_author: BetaButterfly
+site_url: https://BetaButterfly.github.io/jira-course/
+
+theme:
+  name: material
+  language: uk
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Перемкнути на темну тему
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Перемкнути на світлу тему
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Головна: index.md
+  - Модуль 1. Фундамент: module-1.md
+  - Модуль 2. Backlog і спринти: module-2.md
+  - Модуль 3. JQL: module-3.md
+  - Модуль 4. Dashboards і звіти: module-4.md
+  - Модуль 5. Automation: module-5.md
+  - Модуль 6. Jira як PM: module-6.md
+  - Фінальний проєкт: final-project.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
