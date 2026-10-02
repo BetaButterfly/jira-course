@@ -29,12 +29,12 @@ theme:
 
 nav:
   - Головна: index.md
-  - Модуль 1. Фундамент: module-1.md
-  - Модуль 2. Backlog і спринти: module-2.md
-  - Модуль 3. JQL: module-3.md
-  - Модуль 4. Dashboards і звіти: module-4.md
-  - Модуль 5. Automation: module-5.md
-  - Модуль 6. Jira як PM: module-6.md
+  - 1. Фундамент: module-1.md
+  - 2. Backlog і спринти: module-2.md
+  - 3. JQL: module-3.md
+  - 4. Dashboards і звіти: module-4.md
+  - 5. Automation: module-5.md
+  - 6. Jira як PM: module-6.md
   - Фінальний проєкт: final-project.md
 
 markdown_extensions:
